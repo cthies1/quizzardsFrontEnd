@@ -1,0 +1,17 @@
+export { default as photo } from "./photo.png";
+export { default as photo2 } from "./photo2.png";
+export { default as photo3 } from "./photo3.png";
+export { default as photo4 } from "./photo4.png";
+export { default as photo5 } from "./photo5.png";
+export { default as photo6 } from "./photo6.png";
+export { default as photo7 } from "./photo7.png";
+export { default as photo8 } from "./photo8.png";
+export { default as photo9 } from "./photo9.png";
+export { default as photo10 } from "./photo10.png";
+export { default as photo11 } from "./photo11.png";
+export { default as photo12 } from "./photo12.png";
+export { default as photo13 } from "./photo13.png";
+export { default as photo14 } from "./photo14.png";
+export { default as photo15 } from "./photo15.png";
+export { default as photo16 } from "./photo16.png";
+export { default as photo17 } from "./photo17.png";

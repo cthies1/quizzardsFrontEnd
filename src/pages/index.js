@@ -1,0 +1,9 @@
+export { default as CreateQuiz } from "./createQuiz";
+export { default as Home } from "./home";
+export { default as Groups } from "./groups";
+export { default as Messages } from "./messages";
+export { default as Profile } from "./profile";
+export { default as GroupPage } from "./groupPage";
+export { default as QuizPage } from "./quizPage";
+export { default as CreateGroup } from "./createGroup";
+export { default as Quizzes } from "./quizzes";
