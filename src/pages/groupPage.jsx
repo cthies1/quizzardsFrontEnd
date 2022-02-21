@@ -7,8 +7,8 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "react-bootstrap";
-import { MembersList } from "../components";
-import { photo13 } from "../images";
+import { MembersList, QuizBox } from "../components";
+import { photo13, photo14 } from "../images";
 
 function GroupPage() {
   return (
@@ -77,7 +77,18 @@ function GroupPage() {
             </ToggleButtonGroup>
           </div>
         </div>
-        <div class="row"></div>
+        <div class="col-lg-3 mt-5">
+          <QuizBox link={photo13} quizName="Hogwarts" />
+        </div>
+        <div class="col-lg-3 mt-5">
+          <QuizBox link={photo13} quizName="Hogwarts" />
+        </div>
+        <div class="col-lg-3 mt-5">
+          <QuizBox link={photo13} quizName="Hogwarts" />
+        </div>
+        <div class="col-lg-3 mt-5">
+          <QuizBox link={photo13} quizName="Hogwarts" />
+        </div>
       </div>
     </div>
   );

@@ -10,9 +10,8 @@ function Groups() {
     <div className="groups">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-6 mt-5 mb-4">
-            <MDBCol md="6">
+          <div class="col-lg-8 mt-5 mb-4">
+            <MDBCol>
               <MDBInput
                 hint="Search Groups"
                 type="text"
@@ -22,7 +21,8 @@ function Groups() {
               />
             </MDBCol>
           </div>
-          <div class="col-lg-3 mt-5 mb-4">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3 mt-5 mb-4 float-end">
             <Link to="/createGroup">
               <Button variant="outline-primary" size="lg">
                 Create New Group +
@@ -30,7 +30,7 @@ function Groups() {
             </Link>
           </div>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div class="row align-items-center mt-5 mb-2">
           <h1 class="font-weight-bold col-lg-4">Suggested Groups</h1>
         </div>

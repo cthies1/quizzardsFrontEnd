@@ -7,7 +7,7 @@ import {
   PersonCircle,
   QuestionSquareFill,
 } from "react-bootstrap-icons";
-import logo from "../images/logo.png";
+import logo from "../images/logo4.png";
 
 class Navigation extends React.Component {
   render() {
