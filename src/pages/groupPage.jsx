@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Dropdown,
   DropdownButton,
@@ -52,7 +53,9 @@ function GroupPage() {
           </div>
           <div class="col-lg-1"></div>
           <div class="col-lg-3">
-            <Button variant="outline-primary">Create New Quiz +</Button>{" "}
+            <Link to="/createQuiz">
+              <Button variant="outline-primary">Create New Quiz +</Button>{" "}
+            </Link>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-5">

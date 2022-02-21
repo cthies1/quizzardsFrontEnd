@@ -6,45 +6,21 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation } from "./components";
-import {
-  CreateGroup,
-  CreateQuiz,
-  GroupPage,
-  Groups,
-  Home,
-  Messages,
-  Profile,
-  QuizPage,
-  Quizzes,
-} from "./pages";
+import { Home, Quizzes, Groups, Messages, Profile } from "./pages";
+import { GroupPage, QuizPage } from "./pages";
 
 ReactDOM.render(
   <Router>
-        
     <Navigation />
-        
     <Routes>
-            
       <Route path="/" element={<Home />} />
-            
-      <Route path="/createGroup" element={<CreateGroup />} />
-            
-      <Route path="/createQuiz" element={<CreateQuiz />} />
-            
-      <Route path="/groups" element={<Groups />} />
-            
-      <Route path="/messages" element={<Messages />} />
-            
-      <Route path="/profile" element={<Profile />} />
-            
-      <Route path="/groupPage" element={<GroupPage />} />
-            
-      <Route path="/quizPage" element={<QuizPage />} />
-            
       <Route path="/quizzes" element={<Quizzes />} />
-          
+      <Route path="/groups" element={<Groups />} />
+      <Route path="/messages" element={<Messages />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/groupPage" element={<GroupPage />} />
+      <Route path="/quizPage" element={<QuizPage />} />
     </Routes>
-      
   </Router>,
 
   document.getElementById("root")
