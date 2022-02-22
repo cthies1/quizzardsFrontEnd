@@ -12,7 +12,7 @@ import logo from "../images/logo4.png";
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" sticky="top" class="mx0">
+      <Navbar bg="dark" variant="dark" sticky="top" className="mx0">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -28,23 +28,23 @@ class Navigation extends React.Component {
             <Nav.Link href="/groupPage">GP</Nav.Link>
             <Nav.Link href="/quizPage">QP</Nav.Link>
             <Nav.Link href="/">
-              <HouseFill class="mx-1 mb-1" />
+              <HouseFill className="mx-1 mb-1" />
               Home
             </Nav.Link>
             <Nav.Link href="/quizzes">
-              <QuestionSquareFill class="mx-1 mb-1" />
+              <QuestionSquareFill className="mx-1 mb-1" />
               Quizzes
             </Nav.Link>
             <Nav.Link href="/groups">
-              <PeopleFill class="mx-1 mb-1" />
+              <PeopleFill className="mx-1 mb-1" />
               Groups
             </Nav.Link>
             <Nav.Link href="/messages">
-              <SendFill class="mx-1 mb-1" />
+              <SendFill className="mx-1 mb-1" />
               Messages
             </Nav.Link>
             <Nav.Link href="/profile">
-              <PersonCircle class="mx-1 mb-1" />
+              <PersonCircle className="mx-1 mb-1" />
               Profile
             </Nav.Link>
           </Nav>

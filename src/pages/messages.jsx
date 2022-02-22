@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 function Messages() {
   return (
     <div className="messages">
-      <div class="row">
-        <div class="col-sm-3">
+      <div className="row">
+        <div className="col-sm-3">
           <Card>
             <Card.Header as="h5">Featured</Card.Header>
             <Card.Body>
@@ -16,7 +16,7 @@ function Messages() {
             </Card.Body>
           </Card>
         </div>
-        <div class="col-sm-9">
+        <div className="col-sm-9">
           <Card>
             <Card.Header as="h5">Featured</Card.Header>
             <Card.Body>

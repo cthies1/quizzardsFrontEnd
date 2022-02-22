@@ -8,9 +8,9 @@ import { photo13, photo14, photo15, photo16, photo17 } from "../images";
 function Groups() {
   return (
     <div className="groups">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mt-5 mb-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 mt-5 mb-4">
             <MDBCol>
               <MDBInput
                 hint="Search Groups"
@@ -21,8 +21,8 @@ function Groups() {
               />
             </MDBCol>
           </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-3 mt-5 mb-4 float-end">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-3 mt-5 mb-4 float-end">
             <Link to="/createGroup">
               <Button variant="outline-primary" size="lg">
                 Create New Group +
@@ -31,42 +31,42 @@ function Groups() {
           </div>
         </div>
         {/* <hr /> */}
-        <div class="row align-items-center mt-5 mb-2">
-          <h1 class="font-weight-bold col-lg-4">Suggested Groups</h1>
+        <div className="row align-items-center mt-5 mb-2">
+          <h1 className="font-weight-bold col-lg-4">Suggested Groups</h1>
         </div>
-        <div class="row pb-5">
-          <div class="col-lg-3">
+        <div className="row pb-5">
+          <div className="col-lg-3">
             <GroupBox link={photo13} groupName="Hogwarts" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo14} groupName="Puppies" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo15} groupName="Astronomy" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo16} groupName="Candy" />
           </div>
         </div>
-        <div class="row pb-5">
-          <div class="col-lg-3">
+        <div className="row pb-5">
+          <div className="col-lg-3">
             <GroupBox link={photo17} groupName="Books" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo13} groupName="Hogwarts" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo14} groupName="Puppies" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo15} groupName="Astronomy" />
           </div>
         </div>
-        <div class="row pb-5">
-          <div class="col-lg-3">
+        <div className="row pb-5">
+          <div className="col-lg-3">
             <GroupBox link={photo16} groupName="Candy" />
           </div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
             <GroupBox link={photo17} groupName="Books" />
           </div>
         </div>

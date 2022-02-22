@@ -4,7 +4,7 @@ import { Quiz } from "../components";
 function QuizPage() {
   return (
     <div className="quiz-page">
-      <div class="container">
+      <div className="container">
         <Quiz />
       </div>
     </div>

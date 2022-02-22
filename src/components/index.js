@@ -7,3 +7,4 @@ export { default as Navigation } from "./navigation";
 export { default as Quiz } from "./quiz";
 export { default as User } from "./user";
 export { default as QuizBox } from "./quizBox";
+export { default as GroupStats } from "./groupStats";

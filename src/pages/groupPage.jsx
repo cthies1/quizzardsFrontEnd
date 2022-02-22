@@ -7,23 +7,23 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "react-bootstrap";
-import { MembersList, QuizBox } from "../components";
-import { photo13, photo14 } from "../images";
+import { MembersList, QuizBox, BarChart } from "../components";
+import { photo13 } from "../images";
 
 function GroupPage() {
   return (
     <div className="group-page">
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <img
-            class="hero-img col-lg-5 mb-5 px-0"
+            className="hero-img col-lg-5 mb-5 px-0"
             src={photo13}
             alt=""
             width="100%"
           />
-          <div class="description col-lg-7 mb-5 py-5 px-0 bg-secondary">
-            <h1 class="px-5">Hogwarts</h1>
-            <p class="px-5">
+          <div className="description col-lg-7 mb-5 py-5 px-0 bg-secondary">
+            <h1 className="px-5">Hogwarts</h1>
+            <p className="px-5">
               This is a description of the group... Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -35,11 +35,11 @@ function GroupPage() {
             </p>
           </div>
         </div>
-        <div class="float-end col-lg-3">
+        <div className="float-end col-lg-3">
           <MembersList />
         </div>
-        <div class="row">
-          <div class="col-lg-1">
+        <div className="row">
+          <div className="col-lg-1">
             <DropdownButton
               id="dropdown-basic-button"
               title="Filter"
@@ -51,14 +51,14 @@ function GroupPage() {
               <Dropdown.Item href="#/action-4">Quizes Taken</Dropdown.Item>
             </DropdownButton>
           </div>
-          <div class="col-lg-1"></div>
-          <div class="col-lg-3">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-3">
             <Link to="/createQuiz">
               <Button variant="outline-primary">Create New Quiz +</Button>{" "}
             </Link>
           </div>
-          <div class="col-lg-2"></div>
-          <div class="col-lg-5">
+          <div className="col-lg-2"></div>
+          <div className="col-lg-5">
             <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
               <ToggleButton
                 id="tbg-group-stats"
@@ -77,16 +77,17 @@ function GroupPage() {
             </ToggleButtonGroup>
           </div>
         </div>
-        <div class="col-lg-3 mt-5">
+        {/* <BarChart /> */}
+        <div className="col-lg-3 mt-5">
           <QuizBox link={photo13} quizName="Hogwarts" />
         </div>
-        <div class="col-lg-3 mt-5">
+        <div className="col-lg-3 mt-5">
           <QuizBox link={photo13} quizName="Hogwarts" />
         </div>
-        <div class="col-lg-3 mt-5">
+        <div className="col-lg-3 mt-5">
           <QuizBox link={photo13} quizName="Hogwarts" />
         </div>
-        <div class="col-lg-3 mt-5">
+        <div className="col-lg-3 mt-5">
           <QuizBox link={photo13} quizName="Hogwarts" />
         </div>
       </div>
