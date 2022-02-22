@@ -17,7 +17,7 @@ import {
 function FriendsList() {
   return (
     <div className="friends-list">
-      <div className="friends-box ms-3 mb-5 pb-4">
+      <div className="outline ms-3 mb-5 pb-4">
         <h4 className="mx-2 my-2"> Friends: </h4>
         <Friend userName={"avanboven"} link={photo2} />
         <Friend userName={"bbridge"} link={photo3} />

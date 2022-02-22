@@ -12,7 +12,7 @@ function Friend({ userName, link }) {
         />
 
         <div className="col-lg-1 heart">
-          <SuitHeartFill color="#F93154" />
+          <SuitHeartFill color="#f14e48" />
         </div>
         <h5 className="font-weight-light col-lg-8 ps-2 pt-4"> {userName} </h5>
       </div>

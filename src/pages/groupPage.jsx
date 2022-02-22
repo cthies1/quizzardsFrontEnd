@@ -7,7 +7,7 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "react-bootstrap";
-import { MembersList, QuizBox, BarChart } from "../components";
+import { MembersList, QuizBox, StatsBox, CompareBox } from "../components";
 import { photo13 } from "../images";
 
 function GroupPage() {
@@ -38,7 +38,7 @@ function GroupPage() {
         <div className="float-end col-lg-3">
           <MembersList />
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-lg-1">
             <DropdownButton
               id="dropdown-basic-button"
@@ -57,7 +57,7 @@ function GroupPage() {
               <Button variant="outline-primary">Create New Quiz +</Button>{" "}
             </Link>
           </div>
-          <div className="col-lg-2"></div>
+          <div className="col-lg-1"></div>
           <div className="col-lg-5">
             <ToggleButtonGroup type="radio" name="options" defaultValue={1}>
               <ToggleButton
@@ -76,19 +76,35 @@ function GroupPage() {
               </ToggleButton>
             </ToggleButtonGroup>
           </div>
+          <div className="col-lg-1"></div>
         </div>
-        {/* <BarChart /> */}
-        <div className="col-lg-3 mt-5">
-          <QuizBox link={photo13} quizName="Hogwarts" />
-        </div>
-        <div className="col-lg-3 mt-5">
-          <QuizBox link={photo13} quizName="Hogwarts" />
+        <div className="float-end col-lg-5 mx-5">
+          <StatsBox result="Hufflepuff" />
+          <CompareBox />
         </div>
         <div className="col-lg-3 mt-5">
-          <QuizBox link={photo13} quizName="Hogwarts" />
+          <QuizBox
+            name="Hogwarts House"
+            description="Find out which Hogwarts House you belong to :)"
+          />
         </div>
         <div className="col-lg-3 mt-5">
-          <QuizBox link={photo13} quizName="Hogwarts" />
+          <QuizBox
+            name="Hogwarts House"
+            description="Find out which Hogwarts House you belong to :)"
+          />
+        </div>
+        <div className="col-lg-3 mt-5">
+          <QuizBox
+            name="Hogwarts House"
+            description="Find out which Hogwarts House you belong to :)"
+          />
+        </div>
+        <div className="col-lg-3 mt-5">
+          <QuizBox
+            name="Hogwarts House"
+            description="Find out which Hogwarts House you belong to :)"
+          />
         </div>
       </div>
     </div>

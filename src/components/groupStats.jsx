@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Bar } from "react-chartjs-2";
+import { Chart as ChartJS } from "chart.js/auto";
+import { Chart, Bar } from "react-chartjs-2";
 
 class GroupStats extends React.Component {
   constructor(props) {
@@ -9,9 +10,16 @@ class GroupStats extends React.Component {
         labels: ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"],
         datasets: [
           {
-            label: "House",
             data: [15, 35, 45, 5],
-            backgroundColor: ["red", "yellow", "blue", "green"],
+            backgroundColor: [
+              "#f14e48",
+              "#ff9038",
+              "#feca1d",
+              "#43c12c",
+              "#0273e9",
+              "#8d48f1",
+              "#de35e7",
+            ],
           },
         ],
       },
@@ -23,7 +31,14 @@ class GroupStats extends React.Component {
       <div className="group-stats">
         <Bar
           data={this.state.chartData}
-          options={{ maintainAspectRatio: false }}
+          height={250}
+          options={{
+            plugins: {
+              legend: {
+                display: false,
+              },
+            },
+          }}
         />
       </div>
     );

@@ -7,7 +7,7 @@ import {
   PersonCircle,
   QuestionSquareFill,
 } from "react-bootstrap-icons";
-import logo from "../images/logo4.png";
+import logo from "../images/logo3.png";
 
 class Navigation extends React.Component {
   render() {
@@ -18,9 +18,9 @@ class Navigation extends React.Component {
             <img
               alt=""
               src={logo}
-              width="30"
+              width="27"
               height="30"
-              className="d-inline-block align-top"
+              className="d-inline-block"
             />{" "}
             Quizzards
           </Navbar.Brand>

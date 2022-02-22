@@ -1,16 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function QuizBox({ link, quizName }) {
+function QuizBox({ name, description }) {
   return (
     <div className="quiz-box">
-      <img
-        className="group-box img-fluid rounded-circle mb-4 mb-lg-0"
-        src={link}
-        alt=""
-      />
-
-      <div className="overlay"></div>
-      <h2 className="quiz-name">{quizName}</h2>
+      <Link to="/quizPage">
+        <div className="group-name bg-dark text-white px-3 py-3 rounded">
+          <h2>{name}</h2>
+          <p>{description}</p>
+        </div>
+      </Link>
     </div>
   );
 }

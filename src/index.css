@@ -1,23 +1,117 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* background colors */
+.bg-danger {
+  background-color: #f14e48;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+.bg-info {
+  background-color: #ff9038;
+}
+
+.bg-warning {
+  background-color: #feca1d;
+}
+
+.bg-success {
+  background-color: #43c12c;
+}
+
+.bg-primary {
+  background-color: #0273e9;
+}
+
+.bg-secondary {
+  background-color: #8d48f1;
+}
+
+.bg-light {
+  background-color: #de35e7;
+}
+
+/* button colors */
+.btn-outline-danger {
+  color: #f14e48;
+  border-color: #f14e48;
+}
+
+.btn-outline-info {
+  color: #ff9038;
+  border-color: #ff9038;
+}
+
+.btn-outline-warning {
+  color: #feca1d;
+  border-color: #feca1d;
+}
+
+.btn-outline-success {
+  color: #43c12c;
+  border-color: #43c12c;
+}
+
+.btn-outline-primary {
+  color: #0273e9;
+  border-color: #0273e9;
+}
+
+.btn-outline-secondary {
+  color: #8d48f1;
+  border-color: #8d48f1;
+}
+
+.btn-outline-light {
+  color: #de35e7;
+  border-color: #de35e7;
+}
+
+/* button hover colors */
+.btn-outline-danger:hover {
+  color: white;
+  background-color: #f14e48;
+  border-color: #f14e48;
+}
+
+.btn-outline-info:hover {
+  color: white;
+  background-color: #ff9038;
+  border-color: #ff9038;
+}
+
+.btn-outline-warning:hover {
+  color: white;
+  background-color: #feca1d;
+  border-color: #feca1d;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: #43c12c;
+  border-color: #43c12c;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #0273e9;
+  border-color: #0273e9;
+}
+
+.btn-outline-secondary:hover {
+  color: white;
+  background-color: #8d48f1;
+  border-color: #8d48f1;
+}
+
+.btn-outline-light:hover {
+  color: white;
+  background-color: #de35e7;
+  border-color: #de35e7;
+}
 
 .heart {
   margin-left: -2rem !important;
   padding-top: 2.4rem !important;
 }
 
-.friends-box {
+.outline {
   border: 3px solid #292b2c;
 }
 

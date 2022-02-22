@@ -18,7 +18,7 @@ import {
 function MembersList() {
   return (
     <div className="members-list">
-      <div className="friends-box ms-3 mb-5">
+      <div className="outline ms-3 mb-5">
         <div className="row">
           <h4 className="col-lg-5 mx-2 my-2"> Members: </h4>
           <div className="col-lg-1"></div>
