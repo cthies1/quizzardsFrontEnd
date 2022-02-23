@@ -79,7 +79,13 @@ function GroupPage() {
           <div className="col-lg-1"></div>
         </div>
         <div className="float-end col-lg-5 mx-5">
-          <StatsBox result="Hufflepuff" />
+          {/* <StatsBox
+            name="Hogwarts House"
+            result="Hufflepuff"
+            labels={["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]}
+            data={[15, 45, 35, 5]}
+          /> */}
+          <StatsBox />
           <CompareBox />
         </div>
         <div className="col-lg-3 mt-5">
@@ -90,20 +96,17 @@ function GroupPage() {
         </div>
         <div className="col-lg-3 mt-5">
           <QuizBox
-            name="Hogwarts House"
-            description="Find out which Hogwarts House you belong to :)"
+            name="Pets"
+            description="Which pet should you get in the wizarding world?"
           />
         </div>
         <div className="col-lg-3 mt-5">
-          <QuizBox
-            name="Hogwarts House"
-            description="Find out which Hogwarts House you belong to :)"
-          />
+          <QuizBox name="Wands" description="Description of quiz goes here." />
         </div>
         <div className="col-lg-3 mt-5">
           <QuizBox
-            name="Hogwarts House"
-            description="Find out which Hogwarts House you belong to :)"
+            name="Patronus"
+            description="Description of quiz goes here."
           />
         </div>
       </div>

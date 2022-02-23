@@ -5,7 +5,7 @@ import {
   PeopleFill,
   SendFill,
   PersonCircle,
-  QuestionSquareFill,
+  PatchQuestionFill,
 } from "react-bootstrap-icons";
 import logo from "../images/logo3.png";
 
@@ -32,7 +32,7 @@ class Navigation extends React.Component {
               Home
             </Nav.Link>
             <Nav.Link href="/quizzes">
-              <QuestionSquareFill className="mx-1 mb-1" />
+              <PatchQuestionFill className="mx-1 mb-1" />
               Quizzes
             </Nav.Link>
             <Nav.Link href="/groups">

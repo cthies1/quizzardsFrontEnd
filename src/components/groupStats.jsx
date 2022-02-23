@@ -5,12 +5,13 @@ import { Chart, Bar } from "react-chartjs-2";
 class GroupStats extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       chartData: {
-        labels: ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"],
+        labels: this.props.barLabels,
         datasets: [
           {
-            data: [15, 35, 45, 5],
+            data: this.props.barData,
             backgroundColor: [
               "#f14e48",
               "#ff9038",
@@ -25,6 +26,11 @@ class GroupStats extends React.Component {
       },
     };
   }
+
+  static defaultProps = {
+    barLabels: ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7"],
+    barData: [3, 9, 18, 13, 7, 2, 14],
+  };
 
   render() {
     return (

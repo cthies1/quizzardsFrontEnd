@@ -1,5 +1,5 @@
 import React from "react";
-import { FriendsList } from "../components";
+import { FriendsList, QuizBox } from "../components";
 import GroupBox from "../components/groupBox";
 import {
   photo12,
@@ -32,21 +32,58 @@ function Home() {
         </div>
         <div className="row col-lg-9 pb-5">
           <div className="col-lg-4">
-            <GroupBox link={photo13} groupName="Hogwarts" />
+            <GroupBox link={photo13} name="Hogwarts" />
           </div>
           <div className="col-lg-4">
-            <GroupBox link={photo14} groupName="Puppies" />
+            <GroupBox link={photo14} name="Puppies" />
           </div>
           <div className="col-lg-4">
-            <GroupBox link={photo15} groupName="Astronomy" />
+            <GroupBox link={photo15} name="Astronomy" />
           </div>
         </div>
         <div className="row col-lg-9 pb-5">
           <div className="col-lg-4">
-            <GroupBox link={photo16} groupName="Candy" />
+            <GroupBox link={photo16} name="Candy" />
           </div>
           <div className="col-lg-4">
-            <GroupBox link={photo17} groupName="Books" />
+            <GroupBox link={photo17} name="Books" />
+          </div>
+        </div>
+        <div className="row align-items-center mt-5 mb-2">
+          <h1 className="font-weight-bold col-lg-4">Your Groups</h1>
+        </div>
+        <div className="row col-lg-9 pb-5">
+          <div className="col-lg-4">
+            <QuizBox
+              name="Hogwarts"
+              description="description of the quiz goes here."
+            />
+          </div>
+          <div className="col-lg-4">
+            <QuizBox
+              name="Puppies"
+              description="description of the quiz goes here."
+            />
+          </div>
+          <div className="col-lg-4">
+            <QuizBox
+              name="Astronomy"
+              description="description of the quiz goes here."
+            />
+          </div>
+        </div>
+        <div className="row col-lg-9 pb-5">
+          <div className="col-lg-4">
+            <QuizBox
+              name="Candy"
+              description="description of the quiz goes here."
+            />
+          </div>
+          <div className="col-lg-4">
+            <QuizBox
+              name="Books"
+              description="description of the quiz goes here."
+            />
           </div>
         </div>
       </div>
